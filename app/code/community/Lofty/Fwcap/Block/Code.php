@@ -19,7 +19,7 @@ class Lofty_Fwcap_Block_Code extends Mage_Core_Block_Abstract {
             "    s.parentNode.insertBefore(fbds, s);" . PHP_EOL .
             "    _fbq.loaded = true;" . PHP_EOL .
             "  }" . PHP_EOL .
-            "_fbq.push(['addPixelId', {$addPixelId}']);" . PHP_EOL .
+            "_fbq.push(['addPixelId', '{$addPixelId}']);" . PHP_EOL .
             "})();" . PHP_EOL .
             "window._fbq = window._fbq || [];" . PHP_EOL .
             "window._fbq.push(['track', 'PixelInitialized', {}]);" . PHP_EOL .
