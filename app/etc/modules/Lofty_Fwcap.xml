@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Lofty_Fwcap>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Lofty_Fwcap>
+    </modules>
+</config>

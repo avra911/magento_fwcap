@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Lofty_Fwcap>
+            <version>0.1</version>
+        </Lofty_Fwcap>
+    </modules>
+    
+    <global>
+        <models>
+            <fwcap>
+                <class>Lofty_Fwcap_Model</class>
+            </fwcap>
+        </models>
+        <blocks>
+            <fwcap>
+                <class>Lofty_Fwcap_Block</class>
+            </fwcap>
+        </blocks>
+    </global>
+    
+    <default>
+        <fwcap>
+            <general>
+                <fwcap_enable>0</fwcap_enable>
+            </general>
+        </fwcap>
+    </default>
+    
+    <frontend>
+        <events>
+            <controller_action_layout_generate_xml_before>
+                <observers>
+                    <fwcap_add_block>
+                        <type>singleton</type>
+                        <class>fwcap/observer</class>
+                        <method>addFwcapBlock</method>
+                    </fwcap_add_block>
+                </observers>
+            </controller_action_layout_generate_xml_before>
+        </events>
+    </frontend>
+</config>
