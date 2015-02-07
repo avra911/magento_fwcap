@@ -3,7 +3,7 @@
     <sections>
         <fwcap translate="label">
             <label>Facebook Website Custom Audience Pixel</label>
-            <tab>Magnify_All</tab>
+            <tab>general</tab>
             <sort_order>1000</sort_order>
             <show_in_default>1</show_in_default>
             <show_in_website>1</show_in_website>
